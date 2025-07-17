@@ -1,7 +1,7 @@
 import styles from "./SearchBar.module.css";
 
 interface SearchBarProps {
-  onSubmit: (value: string) => void;
+  onSubmit: (searchMovie: string) => void;
 }
 
 export default function SearchBar({ onSubmit }: SearchBarProps) {
